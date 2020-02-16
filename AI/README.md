@@ -1,6 +1,6 @@
 
 
-#Detecting Faces with Python for an image from internet
+# Detecting Faces with Python for an image from internet
 
 ## Installation
 
@@ -13,12 +13,15 @@ Download or Clone this repository
 [--> detecting_faces uses two inputs. 1.The url of the image 2.name of the image]
 
 syntax: detecting_faces('url','arbitrary name')
->>> python
+$ python
 
+$ from detecting_faces import *
 
->> from detecting_faces import *
+$ detecting_faces('https://tennishead.net/wp-content/uploads/2020/02/Roger-Federer-and-Rafael-Nadal.jpg','Federer_Nadal')
 
->> detcting_faces('','')
+![Test Image 1](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/post_processed_image.png)
+![Test Image 2](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/preprocessed_image.png)
+![Test Image 3](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/eye_detector_image.png)
 
 
 ## Contributing
