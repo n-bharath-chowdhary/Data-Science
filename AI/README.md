@@ -1,6 +1,6 @@
 
 
-# Detecting Faces with Python for an image from internet
+# Detecting Faces with Python for an image from internet using OpenCV
 
 ## Installation
 
@@ -19,8 +19,18 @@ $ from detecting_faces import *
 
 $ detecting_faces('https://tennishead.net/wp-content/uploads/2020/02/Roger-Federer-and-Rafael-Nadal.jpg','Federer_Nadal')
 
-![Test Image 1](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/post_processed_image.png)
+# Output
+ 
+First File shows the input image
+
 ![Test Image 2](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/preprocessed_image.png)
+
+Second Image shows the detcted faces
+
+![Test Image 1](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/post_processed_image.png)
+
+Third Image shows the eye detector
+
 ![Test Image 3](https://github.com/n-bharath-chowdhary/Data-Science/blob/master/AI/eye_detector_image.png)
 
 
